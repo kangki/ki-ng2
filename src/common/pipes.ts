@@ -2,9 +2,9 @@ import { Pipe } from '@angular/core';
 import { PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'XXX'
+  name: 'Xxx'
 })
-export class XXX implements PipeTransform {
+export class Xxx implements PipeTransform {
   transform(o: any, ...arg: any[]): any{
     // todo
     return o;
